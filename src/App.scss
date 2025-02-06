@@ -1,0 +1,24 @@
+.app {
+  --font-main-color: #42567a;
+  --font-range-start-color: #5d5fef;
+  --font-range-end-color: #ef5da8;
+  --font-year-color: #3877ee;
+
+  --line-color: #e3e6ed;
+  --bg-color: #f4f5f9;
+
+  --spinner-color: #d0d5e0;
+  --circle-color: #303e5880;
+  --dot-color: #42567a;
+
+  background-color: var(--bg-color);
+
+  @media (width >= 1920px) {
+    padding-left: 320px;
+    padding-right: 160px;
+  }
+
+  @media (width < 426px) {
+    height: 100vh;
+  }
+}
